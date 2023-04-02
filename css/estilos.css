@@ -1,0 +1,29 @@
+
+#titulo{
+    font-size: 37px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    border-radius: 78px;
+    
+    width: 20%;
+    padding: 14px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    margin: 1.7em;
+    justify-content: center;
+    display: flex;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contenedor {
+    
+    display: flex;
+    justify-content: center;
+    
+}  
+#script{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

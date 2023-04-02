@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo 5</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <p id="titulo">Ejercicio 5</p>
+    </div> 
+    <br><br>
+    <div class="contenedor">
+        <script>
+
+            let n1 = parseInt(prompt('Ingrese el primer número:'));
+            let n2= parseInt(prompt('Ingrese el segundo número:'));
+            let n3 = parseInt(prompt('Ingrese el tercer número:'));
+            let texto = ('<h1> El mayor es  :  <h1/> ');
+
+            if(n1>n2){
+                if(n1>n3){
+
+                    document.write(`${ texto }    ${ n1 } `);
+                }else{
+
+                    document.write(`${ texto }    ${ n3 } `);
+                }
+
+            }else{
+                if(n2>n3){
+
+                    document.write(`${ texto }    ${ n2 } `);
+                } else{
+                    document.write(`${ texto }    ${ n3 } `);
+
+                }
+            }
+            
+            
+        </script>
+        
+    </div>
+    <br><br>
+    <div class="contenedor">
+        <a  href="index.html" style=" background-color: rgba(18, 126, 18, 0.959);">Inicio</a>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo 3</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <p id="titulo">Ejercicio 3</p>
+    </div> 
+    <br><br>
+    <div class="contenedor">
+        <script>
+            
+            let  nume1 = prompt('Ingrese el primer número:');
+            let  nume2 = prompt('Ingrese el segundo número:');
+            if (nume1 > nume2) {
+                let suma = parseInt(nume1) + parseInt(nume2);
+                let diferencia =parseInt(nume1) - parseInt(nume2);
+
+                document.write('La suma es  :  '  +  suma + '<br>') ;
+                
+                document.write('La diferencia es  : '  + diferencia + '<br>');
+            } else {
+               
+                let producto = parseInt(nume1) * parseInt(nume2);
+                let division = parseInt(nume1) / parseInt(nume2);
+                document.write('El producto es : '  +  producto + '<br>');
+                
+                document.write('La división es : '  +  division + '<br>');
+            }
+        </script>
+        
+    </div>
+    <br><br>
+    <div class="contenedor">
+        <a  href="index.html" style=" background-color: rgba(80, 7, 122, 0.623);">Inicio</a>
+
+    </div>
+</body>
+</html>

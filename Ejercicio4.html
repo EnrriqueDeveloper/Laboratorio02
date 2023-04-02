@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo 4</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <p id="titulo">Ejercicio 4</p>
+    </div> 
+    <br><br>
+    <div class="contenedor">
+        <script>
+
+            let nota1 = prompt('Ingrese la primera nota:');
+            let nota2 = prompt('Ingrese la segunda nota:');
+            let nota3 = prompt('Ingrese la tercera nota:');
+
+            let suma = parseInt(nota1) + parseInt(nota2) + parseInt(nota3);
+            let promedio = suma/3
+
+            if( promedio >= 4) {
+                document.write('<h1>REGULAR<h1/>');
+
+            } else {
+            document.write('<h1>REPROBADO<h1/>');
+            }
+            
+            
+        </script>
+        
+    </div>
+    <br><br>
+    <div class="contenedor">
+        <a  href="index.html" style=" background-color: rgba(201, 77, 19, 0.623);">Inicio</a>
+
+    </div>
+    
+</body>
+</html>
